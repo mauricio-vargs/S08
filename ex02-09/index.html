@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="exercicios">
+        <div class="ex2">
+            <h2>Exercicio 2 - Procurar Classe</h2>
+            <label for="class">Procure por uma classe!</label>
+            <input type="text" name=""id="searchClass">
+            <button id="searchClassBtn" class="btn">Procurar</button>
+        </div>
+        
+        <div class="ex3">
+            <h2>Exercicio 3 e 4 - Adicionar e remover elementos!</h2>
+            <label for="addElement">Adicione um elemento!</label>
+            <input type="text" name="addElement" id="addElement">
+            <button id="addElementBtn" class="btn" onclick="addElement()">Adicionar!</button>
+            <button id="clearButton" class="btn" onclick="clearParagraphs()">Limpar</button>
+            <div id="addedElements">
+                
+            </div>
+        </div>
+        
+        <div class="ex6">
+            <h3>Exercicio 6 e 7 - Adicionar e remover Classes</h3>
+            <button id="dark-mode-btn" class="btn"onclick="darkMode()">Dark Mode!</button>
+            <p class="dark-ex-6-7">Dark mode is OFF!</p>
+        </div>
+
+        <div class="ex8">
+            <h3>Exercícios 8 e 9 - Adicionar e remover atributos</h3>
+            <div class="8">
+                <input type="text" placeholder="Altere o type deste input" id="inputToChange">
+                <input type="text" id="attribute">
+                <button class="btn"onclick="changeType()">Adicionar</button>
+                <button onclick="removeAttributeOfInput()" class="btn">Remover</button>
+            </div>
+        </div>
+    </div>
+    </body>
+    </html>

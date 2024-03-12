@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+body, html {
+    height: 100vh;
+    background-color:rgb(193, 47, 223);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Truculenta", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;  
+}
+
+.title {
+    padding: 60px 0 30px 0;
+    font-size: 60px;
+    font-weight: bold;
+}
+#newTask {
+    height: 25px;
+    padding-right: 10px;
+}
+
+
+.taskItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    
+}
+
+.task {
+    font-size: 30px;
+    font-weight: 700;
+    padding-right: 10px;
+    width: 100%;
+    
+   
+}
+
+
+.btn {
+    padding: 10px;
+    border-radius: 8px;
+    width: 120px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color:white;
+    margin-left: 12px;
+    transition-duration: 0.3s;
+    font-size: 13px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #000
+}
+
+.completeBtn {
+    background-color: rgb(8, 207, 68);
+    margin-bottom: 15px;
+}
+
+.completeBtn:hover {
+    background-color: white;
+    color:  rgb(8, 207, 68)
+}
+
+.removeBtn {
+    background-color: rgba(221, 5, 5, 0.836);
+}
+
+.removeBtn:hover {
+    background-color: white;
+    color:  rgba(221, 5, 5, 0.836);
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+    transition-duration: 1s;
+}
+
+.removed {
+    display: none;
+}
+
+
+
